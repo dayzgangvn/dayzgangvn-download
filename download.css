@@ -42,9 +42,7 @@ header ul li:hover{
     background: linear-gradient(#61a5c5,#5568bb);
     color: black;
 }
-header ul li:nth-child(1){
-    border-top: 4px solid #33ccff;   
-}
+
 main {
     height:575px;
     width: 1480px;
@@ -144,6 +142,18 @@ section ul li{
     color: white;
     align-items: center;
     justify-content: center;
+}
+.button1:hover{
+    transform: translateY(5px);
+    transition: 0.2s;
+}
+.button2:hover{
+    transform: translateY(5px);
+    transition: 0.2s;
+}
+.button3:hover{
+    transform: translateY(5px);
+    transition: 0.2s;
 }
 footer{
     width:  1480px;
